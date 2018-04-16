@@ -1,0 +1,58 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import "Kiwi.h"
+
+#import "{{ prefix }}{{ module_info.name }}Presenter.h"
+#import "{{ prefix }}{{ module_info.name }}ViewInput.h"
+#import "{{ prefix }}{{ module_info.name }}InteractorInput.h"
+#import "{{ prefix }}{{ module_info.name }}RouterInput.h"
+#import "{{ prefix }}{{ module_info.name }}Router.h"
+
+SPEC_BEGIN({{ prefix }}{{ module_info.name }}PresenterSpec)
+    describe(@"{{ prefix }}{{ module_info.name }}Presenter", ^{
+        registerMatchers(@"{{ prefix }}"); 
+        context(@"Presenter testing", ^{
+            {{ prefix }}{{ module_info.name }}Presenter *presenter=[[{{ prefix }}{{ module_info.name }}Presenter alloc] init];
+            id mockInteractor = [KWMock mockForProtocol:@protocol({{ prefix }}{{ module_info.name }}InteractorInput)]; 
+            id mockRouter = [KWMock mockForProtocol:@protocol({{ prefix }}{{ module_info.name }}RouterInput)]; 
+            id mockView = [KWMock mockForProtocol:@protocol({{ prefix }}{{ module_info.name }}ViewInput)]; 
+ 
+            beforeAll(^{ 
+                presenter.interactor = mockInteractor;
+                presenter.router = mockRouter;
+                presenter.view = mockView;
+            });
+
+            afterAll(^{ 
+            });
+
+            beforeEach(^{ 
+            });
+
+            afterEach(^{ 
+            });
+
+            specify(^{
+                [[presenter shouldNot] beNil];
+                [[mockInteractor shouldNot] beNil];
+                [[mockView shouldNot] beNil];
+                [[mockRouter shouldNot] beNil];
+            });
+
+            context(@"Test Case #1", ^{
+                if("Test life circle", ^{
+                    [[presenter should] receive:@selector(didTriggerViewReadyEvent)];
+                    [[mockView should] receive:@selector(setupInitialState)];    
+                });
+                pending(@"something unimplemented", ^{
+                });
+            });
+        });
+    });
+SPEC_END

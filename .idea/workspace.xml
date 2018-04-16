@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6b2c788-3d09-4030-b058-09386e38423c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_53526DC5-5BA9-436A-84AF-A09C1C2069C8" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.6032565">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="GeolocationService.m" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/GeolocationService/GeolocationService.m">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="535">
+                  <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#100#137#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ApplicationsStatusDelegate.m" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationsStatusDelegate.m">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#100#138#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ApplicationAssembly.m" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationAssembly.m">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="632">
+                  <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+                  <folding>
+                    <element signature="e#100#135#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ApplicationAssembly.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationAssembly.h">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Weather/AppDelegate.m">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#133#180#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UIApplication.h" pinned="false" current-in-tab="false">
+            <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="245">
+                  <caret line="234" column="103" selection-start-line="234" selection-start-column="103" selection-end-line="234" selection-end-column="103" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UNUserNotificationCenter.h" pinned="false" current-in-tab="false">
+            <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UNUserNotificationCenter.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="705">
+                  <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="MainViewScreenDisplayNode.m" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.m">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="737">
+                  <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#160#211#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainViewScreenViewModel.h" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewModels/MainViewScreenViewModel.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RamblerViperModuleFactory</find>
+      <find>RACStream</find>
+      <find>h</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Weather/main.m" />
+        <option value="$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationAssembly.h" />
+        <option value="$PROJECT_DIR$/Weather/ViewController.h" />
+        <option value="$PROJECT_DIR$/Weather/ViewController.m" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewController.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/Geolocation/GeolocationService.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/Geolocation/GeolocationService.m" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/Geolocation/GeolocationServiceProtocol.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkServiceProtocol.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkService.h" />
+        <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/Weather/Info.plist" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractor.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CoordEntity.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/WeatherEntity.m" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/WindEntity.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CloudsEntity.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/SystemEntity.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/WeatherEntity.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CityWeatherEntity.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseService.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseService.m" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractorOutput.h" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewInput.h" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Presenter/MainViewScreenPresenter.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.m" />
+        <option value="$PROJECT_DIR$/Weather/Constants.h" />
+        <option value="$PROJECT_DIR$/Weather/Constants.m" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Assembly/MainViewScreenAssembly.m" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/WeatherService/WeatherService.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/WeatherService/WeatherServiceProtocol.h" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractor.m" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractorInput.h" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.h" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewController.m" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/MainEntity.h" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkService.m" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Presenter/MainViewScreenPresenter.m" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/WeatherService/WeatherService.m" />
+        <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.m" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/GeolocationService/GeolocationServiceProtocol.h" />
+        <option value="$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationsStatusDelegate.h" />
+        <option value="$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationsStatusDelegate.m" />
+        <option value="$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationAssembly.m" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/GeolocationService/GeolocationService.m" />
+        <option value="$PROJECT_DIR$/Weather/AppDelegate.m" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1413" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Pods" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Pods" type="fcab9f18:XcodeViewNode" />
+              <item name="RamblerAppDelegateProxy" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Pods" type="fcab9f18:XcodeViewNode" />
+              <item name="Typhoon" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Frameworks" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Frameworks" type="fcab9f18:XcodeViewNode" />
+              <item name="CoreLocation.framework" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="ApplicationLayer" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="ApplicationLayer" type="fcab9f18:XcodeViewNode" />
+              <item name="Assembles" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="ServicesLayer" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="ServicesLayer" type="fcab9f18:XcodeViewNode" />
+              <item name="GeolocationService" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="ServicesLayer" type="fcab9f18:XcodeViewNode" />
+              <item name="NetworkLayer" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="ServicesLayer" type="fcab9f18:XcodeViewNode" />
+              <item name="WeatherService" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="Supporting Files" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+              <item name="MainViewScreen" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+              <item name="MainViewScreen" type="fcab9f18:XcodeViewNode" />
+              <item name="Assembly" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+              <item name="MainViewScreen" type="fcab9f18:XcodeViewNode" />
+              <item name="Interactor" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+              <item name="MainViewScreen" type="fcab9f18:XcodeViewNode" />
+              <item name="Presenter" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+              <item name="MainViewScreen" type="fcab9f18:XcodeViewNode" />
+              <item name="Router" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+              <item name="MainViewScreen" type="fcab9f18:XcodeViewNode" />
+              <item name="View" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+              <item name="MainViewScreen" type="fcab9f18:XcodeViewNode" />
+              <item name="View" type="fcab9f18:XcodeViewNode" />
+              <item name="ViewModels" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="VIPER" type="fcab9f18:XcodeViewNode" />
+              <item name="MainViewScreen" type="fcab9f18:XcodeViewNode" />
+              <item name="View" type="fcab9f18:XcodeViewNode" />
+              <item name="ViewNodes" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Weather" type="1d218c8b:XcodeProjectNode" />
+              <item name="Weather" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Weather" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Weather" type="AppleRunConfiguration" factoryName="Application" singleton="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Weather" TARGET_NAME="Weather" CONFIG_NAME="Debug" SCHEME_NAME="Weather" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" RUN_TARGET_PROJECT_NAME="Weather" RUN_TARGET_NAME="Weather" MAKE_ACTIVE="TRUE">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="true" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6b2c788-3d09-4030-b058-09386e38423c" name="Default" comment="" />
+      <created>1522806306061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522806306061</updated>
+      <workItem from="1522806308717" duration="3988000" />
+      <workItem from="1522825001749" duration="4855000" />
+      <workItem from="1522834003424" duration="46000" />
+      <workItem from="1522877063528" duration="17244000" />
+      <workItem from="1522980876398" duration="14812000" />
+      <workItem from="1523058500701" duration="12592000" />
+      <workItem from="1523242871082" duration="25072000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78609000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="23" width="2560" height="1413" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32978722" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Regex Tester" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2613185" />
+      <window_info anchor="right" id="LuaJ" order="3" />
+      <window_info anchor="bottom" id="TeamCity" order="7" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42857143" />
+      <window_info anchor="right" x="0" y="0" width="590" height="1213" id="Documentation" order="4" side_tool="true" weight="0.32962668" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" x="0" y="0" width="590" height="1213" id="Documentation" order="5" side_tool="true" weight="0.32962668" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613185" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="LuaJ" order="3" />
+      <window_info anchor="bottom" id="Regex Tester" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37613982" />
+      <window_info anchor="bottom" id="TeamCity" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="13" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32978722" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="32" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="AppleRunConfiguration">
+        <watch expression="self.rootViewController" />
+        <watch expression="self.output" />
+        <watch expression="self.geolocationService" />
+        <watch expression="placemark.addressDictionary[@&quot;City&quot;]" />
+        <watch expression="placemarks.firstObject" />
+        <watch expression="placemarks" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/WeatherEntity.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CoordEntity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CloudsEntity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/SystemEntity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/WeatherEntity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/AFNetworking-RACExtensions/RACAFNetworking/AFHTTPRequestOperationManager+RACSupport.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/YapDatabase/YapDatabaseConnection.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#100#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractorOutput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Texture/Source/Layout/ASLayoutSpec.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding>
+            <element signature="e#100#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/Constants.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/Constants.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/WeatherService/WeatherService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding>
+            <element signature="e#96#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/WeatherService/WeatherServiceProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSArray+RACSequenceAdditions.m">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURL.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Presenter/MainViewScreenPresenter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#158#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractorInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CityWeatherEntity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="e#100#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/MainEntity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/WeatherService/WeatherService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="85" column="72" selection-start-line="85" selection-start-column="72" selection-end-line="85" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+          <folding>
+            <element signature="e#100#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewModels/MainViewScreenViewModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="appcode.project-settings://f8cd7b75">
+      <provider selected="true" editor-type-id="AppCode.ProjectSettings" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding>
+            <element signature="e#160#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractor.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#159#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Presenter/MainViewScreenPresenter.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="50" column="67" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
+          <folding>
+            <element signature="e#158#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Assembly/MainViewScreenAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="90" selection-start-line="90" selection-end-line="97" selection-end-column="1" />
+          <folding>
+            <element signature="e#157#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/GeolocationService/GeolocationServiceProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationsStatusDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/RamblerAppDelegateProxy/Classes/RamblerAppDelegateProxy.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonBlockComponentFactory.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="125" column="55" lean-forward="true" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Typhoon/Source/Factory/TyphoonDefinitionRegisterer.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="614" column="12" lean-forward="true" selection-start-line="614" selection-start-column="12" selection-end-line="614" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/GeolocationService/GeolocationService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+          <folding>
+            <element signature="e#100#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationsStatusDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="e#100#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+          <folding>
+            <element signature="e#100#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ApplicationLayer/Assembles/ApplicationAssembly.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="234" column="103" selection-start-line="234" selection-start-column="103" selection-end-line="234" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UNUserNotificationCenter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewModels/MainViewScreenViewModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#133#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

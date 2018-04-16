@@ -1,0 +1,35 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import "{{ prefix }}{{ module_info.name }}ViewModel.h"
+
+@implementation {{ prefix }}{{ module_info.name }}ViewModel
+
++ (instancetype)initWithBlock:({{ prefix }}{{ module_info.name }}ViewModelBuilderBlock)block
+{
+  return [[{{ prefix }}{{ module_info.name }}ViewModel alloc] initWithBlock:block];
+}
+
+- (instancetype)initWithBlock:({{ prefix }}{{ module_info.name }}ViewModelBuilderBlock)block
+{
+  self = [super init];
+  if (self) {
+    //Place defaults params for props
+
+    if (block)
+      block(self);
+  }
+  return self;
+}
+
+- (instancetype)update:({{ prefix }}{{ module_info.name }}ViewModelBuilderBlock)updateBlock
+{
+  updateBlock(self);
+  return self;
+}
+@end

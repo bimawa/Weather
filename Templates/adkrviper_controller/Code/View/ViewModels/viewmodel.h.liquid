@@ -1,0 +1,19 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+@class {{ prefix }}{{ module_info.name }}ViewModel;
+
+typedef void (^{{ prefix }}{{ module_info.name }}ViewModelBuilderBlock)({{ prefix }}{{ module_info.name }}ViewModel *builder);
+
+@interface {{ prefix }}{{ module_info.name }}ViewModel : NSObject
+
+- (instancetype)initWithBlock:({{ prefix }}{{ module_info.name }}ViewModelBuilderBlock)block;
++ (instancetype)initWithBlock:({{ prefix }}{{ module_info.name }}ViewModelBuilderBlock)block;
+- (instancetype)update:({{ prefix }}{{ module_info.name }}ViewModelBuilderBlock)updateBlock;
+@end

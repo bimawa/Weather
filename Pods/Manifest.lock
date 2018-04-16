@@ -1,0 +1,180 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking-RACExtensions (0.1.8):
+    - AFNetworking (~> 2.5.3)
+    - ReactiveCocoa (~> 2.0)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.4.1):
+    - CocoaLumberjack/Default (= 3.4.1)
+    - CocoaLumberjack/Extensions (= 3.4.1)
+  - CocoaLumberjack/Default (3.4.1)
+  - CocoaLumberjack/Extensions (3.4.1):
+    - CocoaLumberjack/Default
+  - JSONModel (1.7.0)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - RamblerAppDelegateProxy (0.0.5)
+  - RamblerTyphoonUtils/AssemblyCollector (1.5.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Typhoon (4.0.4):
+    - Typhoon/DeallocNotifier (= 4.0.4)
+    - Typhoon/IntrospectionUtils (= 4.0.4)
+    - Typhoon/no-arc (= 4.0.4)
+  - Typhoon/DeallocNotifier (4.0.4)
+  - Typhoon/IntrospectionUtils (4.0.4)
+  - Typhoon/no-arc (4.0.4):
+    - Typhoon/IntrospectionUtils
+  - ViperMcFlurry (1.5.2)
+  - YapDatabase (3.0.2):
+    - YapDatabase/Standard (= 3.0.2)
+  - YapDatabase/Standard (3.0.2):
+    - YapDatabase/Standard/Core (= 3.0.2)
+    - YapDatabase/Standard/Extensions (= 3.0.2)
+  - YapDatabase/Standard/Core (3.0.2):
+    - CocoaLumberjack
+  - YapDatabase/Standard/Extensions (3.0.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/ActionManager (= 3.0.2)
+    - YapDatabase/Standard/Extensions/AutoView (= 3.0.2)
+    - YapDatabase/Standard/Extensions/CloudCore (= 3.0.2)
+    - YapDatabase/Standard/Extensions/CloudKit (= 3.0.2)
+    - YapDatabase/Standard/Extensions/ConnectionProxy (= 3.0.2)
+    - YapDatabase/Standard/Extensions/CrossProcessNotification (= 3.0.2)
+    - YapDatabase/Standard/Extensions/FilteredView (= 3.0.2)
+    - YapDatabase/Standard/Extensions/FullTextSearch (= 3.0.2)
+    - YapDatabase/Standard/Extensions/Hooks (= 3.0.2)
+    - YapDatabase/Standard/Extensions/ManualView (= 3.0.2)
+    - YapDatabase/Standard/Extensions/Relationships (= 3.0.2)
+    - YapDatabase/Standard/Extensions/RTreeIndex (= 3.0.2)
+    - YapDatabase/Standard/Extensions/SearchResultsView (= 3.0.2)
+    - YapDatabase/Standard/Extensions/SecondaryIndex (= 3.0.2)
+    - YapDatabase/Standard/Extensions/View (= 3.0.2)
+  - YapDatabase/Standard/Extensions/ActionManager (3.0.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/AutoView
+  - YapDatabase/Standard/Extensions/AutoView (3.0.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/CloudCore (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/CloudKit (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/ConnectionProxy (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/CrossProcessNotification (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/FilteredView (3.0.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/FullTextSearch (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Hooks (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/ManualView (3.0.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/Relationships (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/RTreeIndex (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/SearchResultsView (3.0.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/AutoView
+    - YapDatabase/Standard/Extensions/FullTextSearch
+  - YapDatabase/Standard/Extensions/SecondaryIndex (3.0.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/View (3.0.2):
+    - YapDatabase/Standard/Core
+
+DEPENDENCIES:
+  - AFNetworking
+  - AFNetworking-RACExtensions
+  - JSONModel
+  - RamblerAppDelegateProxy
+  - RamblerTyphoonUtils/AssemblyCollector
+  - Texture
+  - Typhoon
+  - ViperMcFlurry
+  - YapDatabase
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - AFNetworking-RACExtensions
+    - CocoaLumberjack
+    - JSONModel
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - RamblerAppDelegateProxy
+    - RamblerTyphoonUtils
+    - ReactiveCocoa
+    - Texture
+    - Typhoon
+    - ViperMcFlurry
+    - YapDatabase
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
+  CocoaLumberjack: 2e258a064cacc8eb9a2aca318e24d02a0a7fd56d
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  RamblerAppDelegateProxy: 9e90d7bd1406865918538b4c720fa0977b848a1b
+  RamblerTyphoonUtils: 08a6b5592e045a490cd4550aa9ea4a581308d482
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+  Typhoon: fe0fa417515e279f68170cfe3ae9c1d5eae53205
+  ViperMcFlurry: 701bc3ad8d188b1f1e157ec0ddf4e77184de88b5
+  YapDatabase: 299a32de9d350d37a9ac5b0532609d87d5d2a5de
+
+PODFILE CHECKSUM: 32485fb1e7a33656d1ac9fd28fef9da6cfe8755f
+
+COCOAPODS: 1.5.0.beta.1

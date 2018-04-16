@@ -1,0 +1,50 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import "Kiwi.h"
+#import "{{ prefix }}{{ module_info.name }}ViewController.h"
+#import "{{ prefix }}{{ module_info.name }}ViewOutput.h"
+
+SPEC_BEGIN({{ prefix }}{{ module_info.name }}ViewControllerSpec)
+  describe(@"{{ prefix }}{{ module_info.name }}ViewController", ^{
+    registerMatchers(@"{{ prefix }}"); 
+    context(@"ViewController testing", ^{
+      {{ prefix }}{{ module_info.name }}ViewController *controller = [[{{ prefix }}{{ module_info.name }}ViewController alloc] init];
+      id mockOutput = [KWMock mockForProtocol:@protocol({{ prefix }}{{ module_info.name }}ViewOutput)];
+  
+      beforeAll(^{
+        controller.output = mockOutput;
+      });
+  
+      afterAll(^{ 
+      });
+  
+      beforeEach(^{
+          
+      });
+  
+      afterEach(^{ 
+      });
+  
+      specify(^{
+          [[controller shouldNot] beNil];
+          [[mockOutput shouldNot] beNil];
+      });
+  
+      context(@"Test Case #1", ^{
+          if("Test life circle", ^{
+              [controller viewDidLoad];
+              [[mockOutput should] receive:@selector(didTriggerViewReadyEvent)];
+          });
+          
+          pending(@"something unimplemented", ^{
+          });
+      });
+    });
+});
+SPEC_END

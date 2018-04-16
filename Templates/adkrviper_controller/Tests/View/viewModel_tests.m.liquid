@@ -1,0 +1,40 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import "Kiwi.h"
+#import "{{ prefix }}{{ module_info.name }}ViewModel.h"
+
+SPEC_BEGIN({{ prefix }}{{ module_info.name }}ViewModelSpec)
+  describe(@"{{ prefix }}{{ module_info.name }}ViewModel", ^{
+    registerMatchers(@"{{ prefix }}"); // Registers BGTangentMatcher, BGConvexMatcher, etc.
+    context(@"ViewModel testing", ^{
+      {{ prefix }}{{ module_info.name }}ViewModel *viewModel = [[{{ prefix }}{{ module_info.name }}ViewModel alloc] init];
+      
+      beforeAll(^{ // Occurs once
+      });
+      
+      afterAll(^{ // Occurs once
+      });
+      
+      beforeEach(^{ // Occurs before each enclosed "it"
+      });
+      
+      afterEach(^{ // Occurs after each enclosed "it"
+      });
+      
+      specify(^{
+        [[viewModel shouldNot] beNil];
+      });
+      
+      context(@"Test Case #1", ^{
+        pending(@"something unimplemented", ^{
+        });
+      });
+    });
+  });
+SPEC_END

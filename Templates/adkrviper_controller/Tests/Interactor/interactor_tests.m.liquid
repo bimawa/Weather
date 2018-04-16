@@ -1,0 +1,50 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+
+#import "Kiwi.h"
+
+#import "{{ prefix }}{{ module_info.name }}Interactor.h"
+#import "{{ prefix }}{{ module_info.name }}InteractorOutput.h"
+
+SPEC_BEGIN({{ prefix }}{{ module_info.name }}InteractorSpec)
+    describe(@"{{ prefix }}{{ module_info.name }}Interactor", ^{
+        registerMatchers(@"{{ prefix }}"); // Registers BGTangentMatcher, BGConvexMatcher, etc.
+        context(@"Interactor testing", ^{
+            {{ prefix }}{{ module_info.name }}Interactor *interactor = [[{{ prefix }}{{ module_info.name }}Interactor alloc] init];
+            id mockOutput = [KWMock mockForProtocol:@protocol({{ prefix }}{{ module_info.name }}InteractorOutput)];
+           
+            beforeAll(^{ // Occurs once
+                interactor.output = mockOutput;
+            });
+
+            afterAll(^{ // Occurs once
+            });
+
+            beforeEach(^{ // Occurs before each enclosed "it"
+            });
+
+            afterEach(^{ // Occurs after each enclosed "it"
+            });
+
+            specify(^{
+                [[interactor shouldNot] beNil];
+                [[mockOutput shouldNot] beNil];
+               
+            });
+
+            context(@"Test Case #1", ^{
+                pending(@"Test life circle", ^{
+                   
+                });
+                pending(@"something unimplemented", ^{
+                });
+            });
+        });
+    });
+SPEC_END

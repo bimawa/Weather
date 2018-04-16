@@ -1,0 +1,44 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+#import "Kiwi.h"
+
+#import "{{ prefix }}{{ module_info.name }}Router.h"
+
+SPEC_BEGIN({{ prefix }}{{ module_info.name }}RouterSpec)
+    describe(@"{{ prefix }}{{ module_info.name }}Router", ^{
+        registerMatchers(@"{{ prefix }}"); 
+        context(@"Router testing", ^{
+            {{ prefix }}{{ module_info.name }}Router  *router = [[{{ prefix }}{{ module_info.name }}Router alloc] init];
+
+            beforeAll(^{ 
+            });
+
+            afterAll(^{ 
+            });
+
+            beforeEach(^{ 
+            });
+
+            afterEach(^{ 
+            });
+
+            specify(^{
+                [[router shouldNot] beNil];
+            });
+
+            context(@"Test Case #1", ^{
+                if("Test life circle", ^{
+                    
+                });
+                pending(@"something unimplemented", ^{
+                });
+            });
+        });
+    });
+SPEC_END
