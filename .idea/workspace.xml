@@ -32,76 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b2c788-3d09-4030-b058-09386e38423c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/Assets.xcassets/clockIcon.imageset/-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/Assets.xcassets/clockIcon.imageset/-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/Assets.xcassets/clockIcon.imageset/-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/Assets.xcassets/clockIcon.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/Categories/ASControlNode+RACSignalSupport.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/Categories/ASControlNode+RACSignalSupport.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Assembly/HistoryDataViewScreenAssembly.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Assembly/HistoryDataViewScreenAssembly.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Interactor/HistoryDataViewScreenInteractor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Interactor/HistoryDataViewScreenInteractor.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Interactor/HistoryDataViewScreenInteractorInput.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Interactor/HistoryDataViewScreenInteractorOutput.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Presenter/HistoryDataViewScreenModuleInput.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Presenter/HistoryDataViewScreenPresenter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Presenter/HistoryDataViewScreenPresenter.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Router/HistoryDataViewScreenRouter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Router/HistoryDataViewScreenRouter.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/Router/HistoryDataViewScreenRouterInput.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/HistoryDataViewScreenViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/HistoryDataViewScreenViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/HistoryDataViewScreenViewInput.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/HistoryDataViewScreenViewOutput.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewModels/HistoryDataViewScreenCellViewModel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewModels/HistoryDataViewScreenCellViewModel.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewModels/HistoryDataViewScreenViewModel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewModels/HistoryDataViewScreenViewModel.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewNodes/HistoryDataViewScreenCellNode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewNodes/HistoryDataViewScreenCellNode.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewNodes/HistoryDataViewScreenDisplayNode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewNodes/HistoryDataViewScreenDisplayNode.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking-RACExtensions/AFNetworking-RACExtensions.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking-RACExtensions/AFNetworking-RACExtensions.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/JSONModel/JSONModel.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/JSONModel/JSONModel.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PINCache/PINCache.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PINCache/PINCache.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PINOperation/PINOperation.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PINOperation/PINOperation.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PINRemoteImage/PINRemoteImage.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PINRemoteImage/PINRemoteImage.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Weather/Pods-Weather-resources.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Weather/Pods-Weather-resources.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/RamblerAppDelegateProxy/RamblerAppDelegateProxy.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RamblerAppDelegateProxy/RamblerAppDelegateProxy.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/RamblerTyphoonUtils/RamblerTyphoonUtils.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RamblerTyphoonUtils/RamblerTyphoonUtils.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Texture/Texture.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Texture/Texture.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ViperMcFlurry/ViperMcFlurry.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ViperMcFlurry/ViperMcFlurry.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/YapDatabase/YapDatabase.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/YapDatabase/YapDatabase.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather.xcworkspace/xcuserdata/bimawa.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.xcworkspace/xcuserdata/bimawa.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.h" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.m" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Assembly/MainViewScreenAssembly.m" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Assembly/MainViewScreenAssembly.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractor.m" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractor.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Presenter/MainViewScreenPresenter.m" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Presenter/MainViewScreenPresenter.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Router/MainViewScreenRouter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Router/MainViewScreenRouter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Router/MainViewScreenRouter.m" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Router/MainViewScreenRouter.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Router/MainViewScreenRouterInput.h" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Router/MainViewScreenRouterInput.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewController.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewOutput.h" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/MainViewScreenViewOutput.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.m" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/View/ViewNodes/MainViewScreenDisplayNode.m" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -170,20 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkService.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NetworkService.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkService.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+            <state relative-caret-position="675">
+              <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityWeatherEntity.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CityWeatherEntity.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CityWeatherEntity.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -206,7 +137,6 @@
       <list>
         <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/SystemEntity.h" />
         <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/WeatherEntity.h" />
-        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CityWeatherEntity.h" />
         <option value="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseService.h" />
         <option value="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseService.m" />
         <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractorOutput.h" />
@@ -255,6 +185,7 @@
         <option value="$PROJECT_DIR$/Weather/VIPER/HistoryDataViewScreen/View/ViewModels/HistoryDataViewScreenViewModel.m" />
         <option value="$PROJECT_DIR$/Weather/ServicesLayer/DatabaseService/DatabaseDecorators/CityWeatherEntity+DatabaseService.m" />
         <option value="$PROJECT_DIR$/Weather/VIPER/MainViewScreen/Interactor/MainViewScreenInteractor.m" />
+        <option value="$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CityWeatherEntity.h" />
       </list>
     </option>
   </component>
@@ -544,7 +475,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="XcodeSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -592,16 +523,23 @@
       <workItem from="1524811367667" duration="595000" />
       <workItem from="1524824242420" duration="15000" />
       <workItem from="1524832707717" duration="4652000" />
-      <workItem from="1525166058448" duration="18627000" />
+      <workItem from="1525166058448" duration="18753000" />
     </task>
+    <task id="LOCAL-00001" summary="Reader from database">
+      <created>1525329076457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525329076457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116512000" />
+    <option name="totallyTimeSpent" value="116638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3287879" />
@@ -620,7 +558,7 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.500969" side_tool="true" weight="0.2807784" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3287879" />
       <window_info anchor="right" x="0" y="0" width="590" height="1213" id="Documentation" order="4" side_tool="true" weight="0.32962668" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -663,24 +601,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reader from database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reader from database" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkService.m</url>
-          <line>33</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkService.m</url>
-          <line>46</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="56" />
+      <option name="time" value="57" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="AppleRunConfiguration">
@@ -1033,13 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkService.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/WindEntity.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1085,7 +1008,14 @@
     <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/EntityNetwork/CityWeatherEntity.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather/ServicesLayer/NetworkLayer/NetworkService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
         </state>
       </provider>
     </entry>
