@@ -17,7 +17,13 @@
 #import "NetworkServiceProtocol.h"
 #import "NetworkService.h"
 #import "WeatherService.h"
+#import "HistoryDataViewScreenAssembly.h"
 #import <ViperMcFlurry/ViperMcFlurry.h>
+
+@interface MainViewScreenAssembly ()
+
+@property(nonatomic, strong, readonly) HistoryDataViewScreenAssembly *historyDataViewScreenAssembly;
+@end
 
 @implementation MainViewScreenAssembly
 
@@ -84,6 +90,8 @@
                         configuration:^(TyphoonDefinition *definition) {
                           [definition injectProperty:@selector(transitionHandler)
                                                 with:[self viewMainViewScreenModule]];
+                          [definition injectProperty:@selector(historyDataViewScreen)
+                                                with:[[self historyDataViewScreenAssembly] factoryHistoryDataViewScreenModule]];
                         }];
 }
 
@@ -104,7 +112,7 @@
                         }];
 }
 
-- (id <WeatherServiceProtocol>)weatherServiceMainViewScreenModule{
+- (id <WeatherServiceProtocol>)weatherServiceMainViewScreenModule {
   return [TyphoonDefinition withClass:[WeatherService class]];
 }
 @end

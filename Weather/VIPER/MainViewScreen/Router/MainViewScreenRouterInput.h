@@ -10,4 +10,5 @@
 
 @protocol MainViewScreenRouterInput <NSObject>
 
+- (void)openHistoryModule;
 @end

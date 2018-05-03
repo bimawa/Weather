@@ -7,10 +7,12 @@
 //
 
 #import <ViperMcFlurry/ViperMcFlurry.h>
+#import <ReactiveCocoa/RACSignal.h>
 #import "MainViewScreenViewController.h"
 #import "MainViewScreenViewOutput.h"
 #import "MainViewScreenDisplayNode.h"
 #import "MainViewScreenViewModel.h"
+#import "RACSubject.h"
 
 @interface MainViewScreenViewController () <RamblerViperModuleTransitionHandlerProtocol>
 
@@ -35,7 +37,17 @@
   [super viewDidLoad];
   [self.viewNode setupViewModel:self.viewModel];
   [self.output didTriggerViewReadyEvent];
+
+  [[self.viewNode historyActionSubject] subscribeNext:^(MainViewScreenViewModel *screenViewModel) {
+    [self.output a_openHistory];
+  }];
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+  [super viewWillAppear:animated];
+  [self.navigationController setNavigationBarHidden:YES];
+}
+
 
 #pragma mark - Методы MainViewScreenViewInput
 

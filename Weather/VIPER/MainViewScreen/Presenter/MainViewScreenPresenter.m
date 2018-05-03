@@ -33,6 +33,12 @@
   [self.interactor startLocation];
 }
 
+//Actions
+
+- (void)a_openHistory {
+  [self.router openHistoryModule];
+}
+
 #pragma mark - Методы MainViewScreenInteractorOutput
 
 - (void)dataWeatherReceivedSuccessfule:(CityWeatherEntity *)cityWeatherEntity {

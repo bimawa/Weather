@@ -9,9 +9,10 @@
 #import "MainViewScreenRouterInput.h"
 
 @protocol RamblerViperModuleTransitionHandlerProtocol;
+@protocol RamblerViperModuleFactoryProtocol;
 
 @interface MainViewScreenRouter : NSObject <MainViewScreenRouterInput>
 
-@property (nonatomic, weak) id<RamblerViperModuleTransitionHandlerProtocol> transitionHandler;
-
+@property(nonatomic, weak) id <RamblerViperModuleTransitionHandlerProtocol> transitionHandler;
+@property(nonatomic, strong) id <RamblerViperModuleFactoryProtocol>         historyDataViewScreen;
 @end

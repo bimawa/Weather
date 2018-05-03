@@ -17,4 +17,6 @@
  */
 - (void)didTriggerViewReadyEvent;
 
+//Actions
+- (void)a_openHistory;
 @end

@@ -19,7 +19,6 @@
 @property(nonatomic, strong) NSArray <WeatherEntity> *weather;
 @property(nonatomic, strong) NSString                *base;
 @property(nonatomic, strong) MainEntity              *main;
-@property(nonatomic, strong) NSNumber                *visibility;
 @property(nonatomic, strong) WindEntity              *wind;
 @property(nonatomic, strong) CloudsEntity            *clouds;
 @property(nonatomic, strong) NSDate                  *dt;

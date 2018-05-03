@@ -13,6 +13,7 @@
 
 @interface MainViewScreenDisplayNode : ASDisplayNode
 
+@property(nonatomic, strong, readonly) RACSubject *historyActionSubject;
 - (void)setupViewModel:(MainViewScreenViewModel *)viewModel;
 
 @end

@@ -7,7 +7,6 @@
 #import "DatabaseService.h"
 #import "RACSubject.h"
 #import "YapDatabaseViewTypes.h"
-#import "RACSignal.h"
 #import "YapDatabaseAutoView.h"
 
 NSString *const kCityWeatherCollectionName = @"kCityWeatherEntityCollectionName";
@@ -53,8 +52,18 @@ NSString *const kCityWeatherDatabaseView   = @"kCityWeatherDatabaseView";
 - (void)saveToDataBase {
   DatabaseService *databaseService = [DatabaseService sharedInstance];
   [databaseService.getBackgroundDatabaseConnection asyncReadWriteWithBlock:^(YapDatabaseReadWriteTransaction *transaction) {
-    [transaction setObject:self forKey:self.id.stringValue inCollection:kCityWeatherCollectionName];
+    [transaction setObject:self forKey:[NSString stringWithFormat:@"%f", [self.dt timeIntervalSince1970]] inCollection:kCityWeatherCollectionName];
   }];
 }
 
++ (NSArray <CityWeatherEntity *> *)getAllData {
+  __block NSMutableArray *resultData      = [NSMutableArray new];
+  DatabaseService        *databaseService = [DatabaseService sharedInstance];
+  [databaseService.getBackgroundDatabaseConnection readWithBlock:^(YapDatabaseReadTransaction *transaction) {
+    [transaction enumerateKeysAndObjectsInCollection:kCityWeatherCollectionName usingBlock:^(NSString *key, id object, BOOL *stop) {
+      [resultData addObject:object];
+    }];
+  }];
+  return resultData.copy;
+}
 @end

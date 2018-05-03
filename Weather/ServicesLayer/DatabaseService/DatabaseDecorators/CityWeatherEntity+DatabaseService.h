@@ -14,4 +14,5 @@
 + (RACSignal *)allDatabaseView;
 + (CityWeatherEntity *)getObjectById:(NSNumber *)objectId;
 - (void)saveToDataBase;
++ (NSArray <CityWeatherEntity *> *)getAllData;
 @end

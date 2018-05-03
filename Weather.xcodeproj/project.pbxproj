@@ -11,11 +11,14 @@
 		78CA8FBFEA02F9C954CFF3AD /* MainViewScreenRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 645EA7BDD21E9568BC221A6E /* MainViewScreenRouter.m */; };
 		7A86E851140E4B4D9961418B /* libPods-Weather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F28EDD9751632F0293782F /* libPods-Weather.a */; };
 		927FFE944BDB6475AC9E3F29 /* MainViewScreenPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B104E95CF213B38DDAB3867E /* MainViewScreenPresenter.m */; };
+		92E93B23CAF1DE71FC90377F /* HistoryDataViewScreenRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BDE58BB4E17AED55F5AFE6 /* HistoryDataViewScreenRouter.m */; };
+		A4B794AD2BC36ABB395CA321 /* HistoryDataViewScreenDisplayNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FD400F5D3A8BEB23E4659 /* HistoryDataViewScreenDisplayNode.m */; };
 		A73432B5DEBDCE6FE63F4D18 /* MainViewScreenDisplayNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB3D688252A75CF21C59D2 /* MainViewScreenDisplayNode.m */; };
 		AD359008C77AFCF7B6C12F72 /* DatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = AD359A9648A0778183AFB8CB /* DatabaseService.m */; };
 		AD35915E1F22817F12F35317 /* CoordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD359093EA6791FE9E51BC0E /* CoordEntity.m */; };
 		AD3591ADD690980EBAB1959C /* CityWeatherEntity+DatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = AD35973D8D84A97FC73F34FB /* CityWeatherEntity+DatabaseService.m */; };
 		AD3591D22A0B54A15AF4CCE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3597CA5C4C7D974D5DC071 /* LaunchScreen.storyboard */; };
+		AD35922BDF1D0907E89CFF99 /* ASControlNode+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3596233F13996F1EA6BFBE /* ASControlNode+RACSignalSupport.m */; };
 		AD3592C3A82FE0B9F301FDF8 /* GeolocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3592982F906241C50179A8 /* GeolocationService.m */; };
 		AD3593A74BFDD05E54119874 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3592618F8271BF8DA0F607 /* main.m */; };
 		AD3593D56A4A7F7D2886A52D /* MainEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD359745D08407B21DE11E18 /* MainEntity.m */; };
@@ -28,34 +31,54 @@
 		AD3597485C406B1945A11F13 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3596F67915E09860B3F0C3 /* CoreLocation.framework */; };
 		AD359978E986B6FD2EBC0538 /* CityWeatherEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD359F6761C361D60021C4CA /* CityWeatherEntity.m */; };
 		AD359A7F28A6F552D90350E8 /* WeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = AD359DF6890E635ACA98DCCD /* WeatherService.m */; };
+		AD359AF990F092CFBC075542 /* HistoryDataViewScreenCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD35994295BEC36D99E8D32D /* HistoryDataViewScreenCellViewModel.m */; };
 		AD359B8ADF53AE70B5D5C6CA /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = AD35905E95FD8942FD6E7374 /* ApplicationAssembly.m */; };
 		AD359D9C19BC65EC0F19B8AF /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3597F5A675568104B3B512 /* NetworkService.m */; };
+		AD359DD30F4EE6D15A2E6D0E /* HistoryDataViewScreenCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AD35988C9E38FA38FA8439D1 /* HistoryDataViewScreenCellNode.m */; };
 		AD359E3BCECDC1A2FB6866F7 /* CloudsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD359E11CE04C0A539A9EBFE /* CloudsEntity.m */; };
 		AD359F27D1C7B94D8D94C3D1 /* WeatherEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3593F6081693938EDCAF18 /* WeatherEntity.m */; };
 		AD359F5B7E695BC19235E9FE /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = AD359C903C6A2CAD104EB91F /* Constants.m */; };
 		AD359FF904B1E342F2A8978F /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD359C512652299AF804138C /* UserNotifications.framework */; };
 		AEBA1C9119F57BF4EF68E5E9 /* MainViewScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06448054CDC7F8BF113B7782 /* MainViewScreenViewController.m */; };
+		BD1301E55200552BFC1B9B42 /* HistoryDataViewScreenInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CAF4BFE948F1A62B415A8 /* HistoryDataViewScreenInteractor.m */; };
 		C79B4D67EFE106666F45E183 /* MainViewScreenAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993A314E00B94D9DF5424B5 /* MainViewScreenAssembly.m */; };
+		D50DAE4CD5C37EC8B34713A2 /* HistoryDataViewScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78977C82D1E7D48E34361EFB /* HistoryDataViewScreenViewController.m */; };
+		D8F473A4DA8F8E5C0F1CB763 /* HistoryDataViewScreenAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B97148D2D2093FDE2B02EF3 /* HistoryDataViewScreenAssembly.m */; };
+		D952CEF172450FDEA6E75029 /* HistoryDataViewScreenPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF081B726515EE1782C5A6 /* HistoryDataViewScreenPresenter.m */; };
 		F64E1AB9B0F69903D031319E /* MainViewScreenInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 22039805A74B34E97192C89A /* MainViewScreenInteractor.m */; };
+		F6BDB284B047955E0E881CD7 /* HistoryDataViewScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EB01E2BDAC33935ED0857E /* HistoryDataViewScreenViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06448054CDC7F8BF113B7782 /* MainViewScreenViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainViewScreenViewController.m; sourceTree = "<group>"; };
 		0ECBD8A3D18287B059E0362D /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
+		10C3AB85AB50F7F8659D5750 /* HistoryDataViewScreenViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenViewModel.h; sourceTree = "<group>"; };
 		1993A314E00B94D9DF5424B5 /* MainViewScreenAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainViewScreenAssembly.m; sourceTree = "<group>"; };
+		1B97148D2D2093FDE2B02EF3 /* HistoryDataViewScreenAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenAssembly.m; sourceTree = "<group>"; };
+		1F414161D54A708D422CACC5 /* HistoryDataViewScreenPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenPresenter.h; sourceTree = "<group>"; };
 		1FCE3A329B9CFBB04AEA97E5 /* MainViewScreenViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenViewOutput.h; sourceTree = "<group>"; };
 		22039805A74B34E97192C89A /* MainViewScreenInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainViewScreenInteractor.m; sourceTree = "<group>"; };
 		266775DEF4ABDDD35A810FB2 /* MainViewScreenRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenRouterInput.h; sourceTree = "<group>"; };
 		358E751598AE45EF5D44C9EE /* MainViewScreenPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenPresenter.h; sourceTree = "<group>"; };
+		3852910348604F00FCD9CF97 /* HistoryDataViewScreenViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenViewInput.h; sourceTree = "<group>"; };
 		38BECC46A6D809B396B63BF3 /* MainViewScreenInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenInteractorInput.h; sourceTree = "<group>"; };
+		3D05CA97CA0AAE1C4F010584 /* HistoryDataViewScreenRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenRouterInput.h; sourceTree = "<group>"; };
+		3F3CAF4BFE948F1A62B415A8 /* HistoryDataViewScreenInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenInteractor.m; sourceTree = "<group>"; };
+		4326E122DEEF3FB71E8DFBAF /* HistoryDataViewScreenInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenInteractorOutput.h; sourceTree = "<group>"; };
 		4ADD2F3DE47F54FC2C22E39A /* MainViewScreenViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainViewScreenViewModel.m; sourceTree = "<group>"; };
+		4BDF081B726515EE1782C5A6 /* HistoryDataViewScreenPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenPresenter.m; sourceTree = "<group>"; };
 		52F28EDD9751632F0293782F /* libPods-Weather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Weather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56749B203CE0E34BC7DF75D9 /* MainViewScreenInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenInteractor.h; sourceTree = "<group>"; };
 		5B48FFC04072663B2F0A989F /* MainViewScreenRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenRouter.h; sourceTree = "<group>"; };
+		5E242B90A79D853B294DFE63 /* HistoryDataViewScreenAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenAssembly.h; sourceTree = "<group>"; };
+		605602E7B9425A52F3650D71 /* HistoryDataViewScreenInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenInteractorInput.h; sourceTree = "<group>"; };
 		645EA7BDD21E9568BC221A6E /* MainViewScreenRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainViewScreenRouter.m; sourceTree = "<group>"; };
+		68EB5C90D98C6F9F8673F516 /* HistoryDataViewScreenModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenModuleInput.h; sourceTree = "<group>"; };
 		7591051C6D0AAB7A022086A4 /* MainViewScreenViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenViewModel.h; sourceTree = "<group>"; };
 		76FB568743B4C96DC12FDB4A /* MainViewScreenDisplayNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenDisplayNode.h; sourceTree = "<group>"; };
+		78977C82D1E7D48E34361EFB /* HistoryDataViewScreenViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenViewController.m; sourceTree = "<group>"; };
 		7CBB3D688252A75CF21C59D2 /* MainViewScreenDisplayNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainViewScreenDisplayNode.m; sourceTree = "<group>"; };
+		91DDA31232C05D3761A203EA /* HistoryDataViewScreenDisplayNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenDisplayNode.h; sourceTree = "<group>"; };
 		A5893C9F2A9B6B9E2284FA6A /* MainViewScreenViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenViewController.h; sourceTree = "<group>"; };
 		AD3590493DFD22686F139536 /* NetworkServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkServiceProtocol.h; sourceTree = "<group>"; };
 		AD35905E95FD8942FD6E7374 /* ApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
@@ -74,7 +97,9 @@
 		AD35946E0F85DBB4A64A655D /* CityWeatherEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityWeatherEntity.h; sourceTree = "<group>"; };
 		AD35947CF3A04731F33676AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3594EB225B21EBB44113FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD35953A63CB7F7602750F57 /* HistoryDataViewScreenCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenCellNode.h; sourceTree = "<group>"; };
 		AD359571D03C4C06DEBF4F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AD3596233F13996F1EA6BFBE /* ASControlNode+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASControlNode+RACSignalSupport.m"; sourceTree = "<group>"; };
 		AD359624B488790EDF043A36 /* WeatherEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherEntity.h; sourceTree = "<group>"; };
 		AD3596F67915E09860B3F0C3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD359719F216AA39D956D74F /* NetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
@@ -83,9 +108,12 @@
 		AD3597769156DDEA06CB1F25 /* WindEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindEntity.m; sourceTree = "<group>"; };
 		AD3597B91A65F4BFBAA4D8CC /* MainEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEntity.h; sourceTree = "<group>"; };
 		AD3597F5A675568104B3B512 /* NetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
+		AD35988C9E38FA38FA8439D1 /* HistoryDataViewScreenCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenCellNode.m; sourceTree = "<group>"; };
 		AD3598B6C51889E254FB5AAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD35993A7039EEE86A8EB7E7 /* CoordEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordEntity.h; sourceTree = "<group>"; };
+		AD35993F753292C63EA11A12 /* HistoryDataViewScreenCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenCellViewModel.h; sourceTree = "<group>"; };
 		AD359941C3136CC397999E58 /* DatabaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseService.h; sourceTree = "<group>"; };
+		AD35994295BEC36D99E8D32D /* HistoryDataViewScreenCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenCellViewModel.m; sourceTree = "<group>"; };
 		AD3599C6B1C0680C289DD942 /* ApplicationsStatusDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationsStatusDelegate.h; sourceTree = "<group>"; };
 		AD359A9648A0778183AFB8CB /* DatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseService.m; sourceTree = "<group>"; };
 		AD359AEC9842A7AFFE07148E /* WindEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindEntity.h; sourceTree = "<group>"; };
@@ -94,6 +122,7 @@
 		AD359C512652299AF804138C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		AD359C903C6A2CAD104EB91F /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		AD359CD27DFC1EA98672BBE6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AD359CE7E8B2434DC676EC0C /* ASControlNode+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASControlNode+RACSignalSupport.h"; sourceTree = "<group>"; };
 		AD359D38A7BBABCBE853BAD6 /* WeatherServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherServiceProtocol.h; sourceTree = "<group>"; };
 		AD359DAEE2C2F41A959B3616 /* CityWeatherEntity+DatabaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CityWeatherEntity+DatabaseService.h"; sourceTree = "<group>"; };
 		AD359DF6890E635ACA98DCCD /* WeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherService.m; sourceTree = "<group>"; };
@@ -101,10 +130,17 @@
 		AD359E8FD3358161B37B5B34 /* GeolocationServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeolocationServiceProtocol.h; sourceTree = "<group>"; };
 		AD359F6761C361D60021C4CA /* CityWeatherEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityWeatherEntity.m; sourceTree = "<group>"; };
 		AD359FF366123763975B3573 /* GeolocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeolocationService.h; sourceTree = "<group>"; };
+		B05FD400F5D3A8BEB23E4659 /* HistoryDataViewScreenDisplayNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenDisplayNode.m; sourceTree = "<group>"; };
 		B104E95CF213B38DDAB3867E /* MainViewScreenPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainViewScreenPresenter.m; sourceTree = "<group>"; };
 		BD6660FC83B580BE18E53534 /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
+		C2010F1B088CB77106D11497 /* HistoryDataViewScreenViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenViewController.h; sourceTree = "<group>"; };
 		C45602B8E08137B6C2C0AC28 /* MainViewScreenViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenViewInput.h; sourceTree = "<group>"; };
+		C915013A8DE8C1F1F0B91B46 /* HistoryDataViewScreenInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenInteractor.h; sourceTree = "<group>"; };
 		D38FFFFA757D572CC8BFC244 /* MainViewScreenAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenAssembly.h; sourceTree = "<group>"; };
+		DE16439E0DFFE70745F669E7 /* HistoryDataViewScreenViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenViewOutput.h; sourceTree = "<group>"; };
+		E0BDE58BB4E17AED55F5AFE6 /* HistoryDataViewScreenRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenRouter.m; sourceTree = "<group>"; };
+		F3EB01E2BDAC33935ED0857E /* HistoryDataViewScreenViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewScreenViewModel.m; sourceTree = "<group>"; };
+		FE4A79239AF18FF3FAAB8B08 /* HistoryDataViewScreenRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewScreenRouter.h; sourceTree = "<group>"; };
 		FE8A3C8EC892A789177AFB80 /* MainViewScreenInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewScreenInteractorOutput.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +158,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27198136321193B258C7AC96 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3D05CA97CA0AAE1C4F010584 /* HistoryDataViewScreenRouterInput.h */,
+				FE4A79239AF18FF3FAAB8B08 /* HistoryDataViewScreenRouter.h */,
+				E0BDE58BB4E17AED55F5AFE6 /* HistoryDataViewScreenRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		2A449450EFDBDE8BB16CA4B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,11 +181,44 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3CE5A0169A7811F6B9CC104C /* HistoryDataViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7B8DB9F9C9449F48229D4BB9 /* Assembly */,
+				D883BBC05BF10BA3301EEF38 /* View */,
+				42824A12D99DAFB76979D1D1 /* Presenter */,
+				80131B1DEAB68A0056F67E9B /* Interactor */,
+				27198136321193B258C7AC96 /* Router */,
+			);
+			path = HistoryDataViewScreen;
+			sourceTree = "<group>";
+		};
+		42824A12D99DAFB76979D1D1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				68EB5C90D98C6F9F8673F516 /* HistoryDataViewScreenModuleInput.h */,
+				1F414161D54A708D422CACC5 /* HistoryDataViewScreenPresenter.h */,
+				4BDF081B726515EE1782C5A6 /* HistoryDataViewScreenPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		44A309BAA1088638DBCA1CB9 /* ViewNodes */ = {
 			isa = PBXGroup;
 			children = (
 				76FB568743B4C96DC12FDB4A /* MainViewScreenDisplayNode.h */,
 				7CBB3D688252A75CF21C59D2 /* MainViewScreenDisplayNode.m */,
+			);
+			path = ViewNodes;
+			sourceTree = "<group>";
+		};
+		479D1C58F4F4B0C2D49F52FE /* ViewNodes */ = {
+			isa = PBXGroup;
+			children = (
+				91DDA31232C05D3761A203EA /* HistoryDataViewScreenDisplayNode.h */,
+				B05FD400F5D3A8BEB23E4659 /* HistoryDataViewScreenDisplayNode.m */,
+				AD35988C9E38FA38FA8439D1 /* HistoryDataViewScreenCellNode.m */,
+				AD35953A63CB7F7602750F57 /* HistoryDataViewScreenCellNode.h */,
 			);
 			path = ViewNodes;
 			sourceTree = "<group>";
@@ -163,6 +242,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B8DB9F9C9449F48229D4BB9 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				5E242B90A79D853B294DFE63 /* HistoryDataViewScreenAssembly.h */,
+				1B97148D2D2093FDE2B02EF3 /* HistoryDataViewScreenAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		80131B1DEAB68A0056F67E9B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				605602E7B9425A52F3650D71 /* HistoryDataViewScreenInteractorInput.h */,
+				4326E122DEEF3FB71E8DFBAF /* HistoryDataViewScreenInteractorOutput.h */,
+				C915013A8DE8C1F1F0B91B46 /* HistoryDataViewScreenInteractor.h */,
+				3F3CAF4BFE948F1A62B415A8 /* HistoryDataViewScreenInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		958307BC7B7CA3AD8ADE71C0 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA6141B88174FFE942A121B /* MainViewScreen */,
+				3CE5A0169A7811F6B9CC104C /* HistoryDataViewScreen */,
 			);
 			path = VIPER;
 			sourceTree = "<group>";
@@ -262,6 +362,15 @@
 			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
+		AD359AA568A8AB275E37F878 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AD3596233F13996F1EA6BFBE /* ASControlNode+RACSignalSupport.m */,
+				AD359CE7E8B2434DC676EC0C /* ASControlNode+RACSignalSupport.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		AD359B2CE5981EA1B62E4049 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +385,7 @@
 				AD359817F25A83A13E3793BF /* ApplicationLayer */,
 				9616414CD11642D10704AD5F /* VIPER */,
 				AD359E5D562EBC4C3E20599D /* ServicesLayer */,
+				AD359AA568A8AB275E37F878 /* Categories */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -340,6 +450,30 @@
 			path = DatabaseService;
 			sourceTree = "<group>";
 		};
+		D883BBC05BF10BA3301EEF38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3852910348604F00FCD9CF97 /* HistoryDataViewScreenViewInput.h */,
+				DE16439E0DFFE70745F669E7 /* HistoryDataViewScreenViewOutput.h */,
+				C2010F1B088CB77106D11497 /* HistoryDataViewScreenViewController.h */,
+				78977C82D1E7D48E34361EFB /* HistoryDataViewScreenViewController.m */,
+				DD7B58FBF4481AC40B5115F5 /* ViewModels */,
+				479D1C58F4F4B0C2D49F52FE /* ViewNodes */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD7B58FBF4481AC40B5115F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				10C3AB85AB50F7F8659D5750 /* HistoryDataViewScreenViewModel.h */,
+				F3EB01E2BDAC33935ED0857E /* HistoryDataViewScreenViewModel.m */,
+				AD35994295BEC36D99E8D32D /* HistoryDataViewScreenCellViewModel.m */,
+				AD35993F753292C63EA11A12 /* HistoryDataViewScreenCellViewModel.h */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		E91BD390B6BBF95AC5539734 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -389,6 +523,8 @@
 				AD359E962C852CC79434E532 /* Sources */,
 				AD35950328002956E0281551 /* Frameworks */,
 				AD35934F544BB95C4D5CA4EC /* Resources */,
+				FA1785EF190EAC1B140F4BBD /* [CP] Embed Pods Frameworks */,
+				31F21D4DFDF18CD7EBB82650 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -447,6 +583,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		31F21D4DFDF18CD7EBB82650 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weather/Pods-Weather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AEEDBABA28B0CD36FDF2654C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,6 +614,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1785EF190EAC1B140F4BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -497,6 +663,16 @@
 				AD3591ADD690980EBAB1959C /* CityWeatherEntity+DatabaseService.m in Sources */,
 				AD359A7F28A6F552D90350E8 /* WeatherService.m in Sources */,
 				AD3594165DC59E035F3937DA /* ApplicationsStatusDelegate.m in Sources */,
+				D8F473A4DA8F8E5C0F1CB763 /* HistoryDataViewScreenAssembly.m in Sources */,
+				D50DAE4CD5C37EC8B34713A2 /* HistoryDataViewScreenViewController.m in Sources */,
+				F6BDB284B047955E0E881CD7 /* HistoryDataViewScreenViewModel.m in Sources */,
+				A4B794AD2BC36ABB395CA321 /* HistoryDataViewScreenDisplayNode.m in Sources */,
+				D952CEF172450FDEA6E75029 /* HistoryDataViewScreenPresenter.m in Sources */,
+				BD1301E55200552BFC1B9B42 /* HistoryDataViewScreenInteractor.m in Sources */,
+				92E93B23CAF1DE71FC90377F /* HistoryDataViewScreenRouter.m in Sources */,
+				AD35922BDF1D0907E89CFF99 /* ASControlNode+RACSignalSupport.m in Sources */,
+				AD359DD30F4EE6D15A2E6D0E /* HistoryDataViewScreenCellNode.m in Sources */,
+				AD359AF990F092CFBC075542 /* HistoryDataViewScreenCellViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +750,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bimawa.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) \"${PROJECT_DIR}/../Pods\"/** \"${PROJECT_DIR}/../Pods\"/** \"${PROJECT_DIR}/../Pods\"/**";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -632,7 +808,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bimawa.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) \"${PROJECT_DIR}/../Pods\"/** \"${PROJECT_DIR}/../Pods\"/** \"${PROJECT_DIR}/../Pods\"/**";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 			};
 			name = Release;
 		};

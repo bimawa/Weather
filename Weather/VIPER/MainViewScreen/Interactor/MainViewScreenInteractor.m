@@ -32,7 +32,6 @@
   if (self) {
     self.cityUpdateSubject = [RACSubject new];
 
-
     [[self.cityUpdateSubject distinctUntilChanged] subscribeNext:^(NSString *cityName) {
       [[self.networkService getWeatherForCity:cityName] subscribeNext:^(CityWeatherEntity *cityWeatherEntity) {
         [cityWeatherEntity saveToDataBase];

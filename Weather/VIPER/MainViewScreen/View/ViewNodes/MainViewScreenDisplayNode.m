@@ -8,20 +8,24 @@
 
 #import <Texture/AsyncDisplayKit/AsyncDisplayKit.h>
 #import <ReactiveCocoa/RACSignal+Operations.h>
+#import <ReactiveCocoa/RACSubject.h>
 #import "MainViewScreenDisplayNode.h"
-#import "MainViewScreenViewModel.h"
 #import "NSObject+RACPropertySubscribing.h"
 #import "ReactiveCocoa/RACEXTScope.h"
-#import "RACSignal.h"
+#import "ASControlNode+RACSignalSupport.h"
+#import "MainViewScreenViewModel.h"
 
 @interface MainViewScreenDisplayNode ()
 
-@property(nonatomic, strong) ASVideoPlayerNode  *videoNodeBackground;
-@property(nonatomic, strong) ASTextNode         *cityTitleLabel;
-@property(nonatomic, strong) ASNetworkImageNode *weatherIconImage;
-@property(nonatomic, strong) ASTextNode         *temperatureLabel;
-@property(nonatomic, strong) ASTextNode         *mainStatusString;
-@property(nonatomic, strong) ASTextNode         *descriptionFullWeather;
+@property(nonatomic, strong) ASVideoPlayerNode       *videoNodeBackground;
+@property(nonatomic, strong) ASTextNode              *cityTitleLabel;
+@property(nonatomic, strong) ASNetworkImageNode      *weatherIconImage;
+@property(nonatomic, strong) ASTextNode              *temperatureLabel;
+@property(nonatomic, strong) ASTextNode              *mainStatusString;
+@property(nonatomic, strong) ASTextNode              *descriptionFullWeather;
+@property(nonatomic, strong) ASButtonNode            *historyButtonNode;
+@property(nonatomic, strong) MainViewScreenViewModel *currentViewModel;
+@property(nonatomic, strong, readwrite) RACSubject   *historyActionSubject;
 @end
 
 @implementation MainViewScreenDisplayNode {
@@ -49,25 +53,39 @@
     self.weatherIconImage       = [[ASNetworkImageNode alloc] initWithCache:[ASPINRemoteImageDownloader sharedDownloader] downloader:[ASPINRemoteImageDownloader sharedDownloader]];
     self.mainStatusString       = [ASTextNode new];
     self.descriptionFullWeather = [ASTextNode new];
+
+    self.historyButtonNode = [ASButtonNode new];
+    [self.historyButtonNode setImage:[UIImage as_imageNamed:@"clockIcon"] forState:UIControlStateNormal];
+    self.historyActionSubject = [RACSubject subject];
+    [[self.historyButtonNode rac_signalForControlEvents:ASControlNodeEventTouchUpInside] subscribeNext:^(id x) {
+      [self.historyActionSubject sendNext:self.currentViewModel];
+    }];
+
   }
   return self;
 }
 
 - (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize {
-  ASInsetLayoutSpec   *videoSpec        = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsZero child:self.videoNodeBackground];
-  ASStackLayoutSpec   *verticaleSpec    = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionVertical spacing:8 justifyContent:ASStackLayoutJustifyContentCenter alignItems:ASStackLayoutAlignItemsCenter children:@[
+  ASInsetLayoutSpec    *videoSpec               = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsZero child:self.videoNodeBackground];
+  ASStackLayoutSpec    *verticaleSpec           = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionVertical spacing:8 justifyContent:ASStackLayoutJustifyContentCenter alignItems:ASStackLayoutAlignItemsCenter children:@[
       self.cityTitleLabel,
       self.temperatureLabel,
       self.weatherIconImage,
       self.mainStatusString,
       self.descriptionFullWeather
   ]];
-  ASOverlayLayoutSpec *overlayMainStack = [ASOverlayLayoutSpec overlayLayoutSpecWithChild:videoSpec overlay:verticaleSpec];
-
-  return overlayMainStack;
+  ASOverlayLayoutSpec  *overlayMainStack        = [ASOverlayLayoutSpec overlayLayoutSpecWithChild:videoSpec overlay:verticaleSpec];
+  //region Button layout
+  ASInsetLayoutSpec    *insetLayoutSpec         = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(10, 10, 10, 10) child:self.historyButtonNode];
+  ASRelativeLayoutSpec *relativeLayoutSpec      = [ASRelativeLayoutSpec relativePositionLayoutSpecWithHorizontalPosition:ASRelativeLayoutSpecPositionEnd verticalPosition:ASRelativeLayoutSpecPositionEnd sizingOption:ASRelativeLayoutSpecSizingOptionMinimumSize
+                                                                                                                   child:insetLayoutSpec];
+  ASOverlayLayoutSpec  *buttonOverlayLayoutSpec = [ASOverlayLayoutSpec overlayLayoutSpecWithChild:overlayMainStack overlay:relativeLayoutSpec];
+  //endregion
+  return buttonOverlayLayoutSpec;
 }
 
 - (void)setupViewModel:(MainViewScreenViewModel *)viewModel {
+  self.currentViewModel = viewModel;
   @weakify(self);
   [[RACObserve(viewModel, urlVideoStock) ignore:nil] subscribeNext:^(NSURL *urlAsset) {
     @strongify(self);

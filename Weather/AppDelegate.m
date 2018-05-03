@@ -21,12 +21,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
   self.window                    = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-  self.window.rootViewController = self.rootViewController;
+  self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:self.rootViewController];
   self.window.backgroundColor    = [UIColor whiteColor];
   [self.window makeKeyAndVisible];
 
   [UNUserNotificationCenter.currentNotificationCenter requestAuthorizationWithOptions:UNAuthorizationOptionAlert | UNAuthorizationOptionBadge | UNAuthorizationOptionSound completionHandler:^(BOOL granted, NSError *error) {
-    
+
   }];
 
   return YES;

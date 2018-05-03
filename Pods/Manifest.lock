@@ -142,23 +142,6 @@ DEPENDENCIES:
   - ViperMcFlurry
   - YapDatabase
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - AFNetworking
-    - AFNetworking-RACExtensions
-    - CocoaLumberjack
-    - JSONModel
-    - PINCache
-    - PINOperation
-    - PINRemoteImage
-    - RamblerAppDelegateProxy
-    - RamblerTyphoonUtils
-    - ReactiveCocoa
-    - Texture
-    - Typhoon
-    - ViperMcFlurry
-    - YapDatabase
-
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
@@ -177,4 +160,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 32485fb1e7a33656d1ac9fd28fef9da6cfe8755f
 
-COCOAPODS: 1.5.0.beta.1
+COCOAPODS: 1.3.1
